@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Contacto - BLST</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="LOGO.png" alt="Logo BLST" class="logo-img">
+      <span class="logo-text">BLST</span>
+    </div>
+    <nav>
+      <ul class="menu">
+        <li><a href="inicio.html">Inicio</a></li>
+        <li><a href="sobre.html">Sobre Nosotros</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="piezas.html">Venta de Piezas</a></li>
+        <li><a href="contacto.html" class="activo">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main>
+    <section class="apartado">
+      <h1>Contáctanos</h1>
+      <p>Estamos aquí para ayudarte con la gestión de tus dispositivos electrónicos.</p>
+      <p>
+        Nuestro equipo responde en menos de 24 horas y te guiará para que tus equipos sean reciclados de forma segura.
+        También ofrecemos asesoramiento sobre piezas y reacondicionamiento.
+      </p>
+
+
+      <form class="formulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" placeholder="Tu nombre completo" required>
+
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" placeholder="tuemail@ejemplo.com" required>
+
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+        <div class="encuesta">
+          <p>¿Te ha gustado nuestro servicio?</p>
+          <label><input type="radio" name="encuesta1" value="si" required> Sí</label>
+          <label><input type="radio" name="encuesta1" value="no"> No</label>
+        </div>
+
+
+        <div class="encuesta">
+          <p>¿que te ha gustado de nosotros?</p>
+          <label><input type="checkbox" name="encuesta2" value="Todo"> Todo</label>
+          <label><input type="checkbox" name="encuesta2" value="Nada"> Nada</label>
+          <label><input type="checkbox" name="encuesta2" value="Al¡gunas cosas"> Algunas cosas</label>
+        </div>
+
+
+        <button type="submit">Enviar mensaje</button>
+      </form>
+    </section>
+  </main>
+
+
+  <footer>
+    <p>© 2025 BLST | Reciclaje Electrónico Responsable</p>
+  </footer>
+</body>
+</html>
